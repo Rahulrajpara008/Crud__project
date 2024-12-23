@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    color: #08d108ef;
+    font-size: xxx-large;
+}
+label{
+    font-weight: 900;
+    font-size: 35px;
+}
+input{
+    height: 43px;
+    width: 1200px;
+    font-size: 20px;
+    border-color: #39e939ef;
+}
+div{
+    margin-top: 5px;
+}
+#firstbtn{
+ width: 150px;
+ background-color: #08b408ef;
+ color: white;
+
+}
+table{
+    font-size: 23px;
+    margin-left: 29px;
+}
+th{
+    width: 240px;
+    font-size: 25px;
+    background-color: #08b408ef;
+    color: white;
+}
+#edittbtn{
+    background: yellow;
+    border-color: yellow;
+    border-radius:5px ;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+}
+#deletebtn{
+    background: red;
+    border-color: red;
+    border-radius:5px ;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+color: white;
+}
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecrud.css">
+</head>
+<body>
+    <div><h1>Crud Operator</h1></div>
+    <form action="#" name="userfrm">
+        <div><input type="hidden" name="userid" id="userid" ></div>
+        <div><label for="">Name:</label></div>
+        <div><input type="text" name="name" id="name" placeholder="Enter Your Name "> </div>
+        <div><label for="">Age:</label></div>
+        <div><input type="number" name="age" id="age" placeholder="Enter Your Age"></div>
+        <div><label for="">course:</label></div>
+        <div><input type="text" name="course" id="course" placeholder="Enter Your Course"></div>
+        <div><input type="button" value="Save" onclick="saveData()" id="firstbtn"></div>
+    </form>
+  <table border="1">
+        <thead>
+            <tr>
+                <div><th>Id</th></div>
+                <div><th>Name</th></div>
+                <div><th>Age</th></div>
+                <div><th>Course</th></div>
+                <div><th>Action</th></div>
+            </tr>
+        </thead>
+        <tbody id="alldata">
+
+        </tbody>
+    </table>
+    <script src="crud.js"></script>
+</body>
+</html>
